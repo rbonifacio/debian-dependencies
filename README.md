@@ -3,7 +3,7 @@
 Análise das dependências entre pacotes do Debian para identificar as bibliotecas mais
 relevantes, ou seja, aquelas de que mais pacotes dependem, direta ou indiretamente.
 
-O resultado principal é [`results/top200_libs.csv`](results/top200_libs.csv): as 200
+O resultado principal é [`results/top100_libs.csv`](results/top100_libs.csv): as 100
 bibliotecas mais relevantes da release **trixie (Debian 13)**, seção `main`, arquitetura
 `amd64`.
 
@@ -33,7 +33,7 @@ scripts/fetch.sh trixie amd64                    # baixa os índices para data/t
 .venv/bin/python -I scripts/deb2neo4j.py \
     data/trixie/Packages data/trixie/Sources import   # gera o grafo em CSV
 .venv/bin/python -I scripts/ranking.py \
-    data/trixie/Packages import results 200           # gera o ranking
+    data/trixie/Packages import results 100           # gera o ranking
 ```
 
 `data/`, `import/` e `results/ranking_all.csv` não são versionados, porque podem ser
@@ -46,7 +46,7 @@ scripts/fetch.sh                  download dos índices do Debian
 scripts/deb2neo4j.py              parser deb822 -> CSVs do grafo (formato neo4j-admin import)
 scripts/ranking.py                cálculo das métricas e geração do ranking
 classification/categories.csv     categoria funcional de cada lib (curadoria manual)
-results/top200_libs.csv           top 200 bibliotecas
+results/top100_libs.csv           top 100 bibliotecas
 results/ranking_all.csv           ranking de todos os pacotes (não versionado)
 ```
 
@@ -97,7 +97,7 @@ são 71.770 nós e 305.206 arestas. Sobre esse grafo ele calcula três métricas
 | `direct_dependents` | número de pacotes que a declaram diretamente em `Depends`/`Pre-Depends` |
 | `transitive_dependents` | número de pacotes que dependem dela por qualquer caminho |
 
-Para `top200_libs.csv`, entram apenas os pacotes com `Section` igual a `libs` ou
+Para `top100_libs.csv`, entram apenas os pacotes com `Section` igual a `libs` ou
 `oldlibs`. Ficam de fora os pacotes `libc6-*-cross`, que são a libc para compilação
 cruzada e só aparecem bem colocados porque o toolchain de cada arquitetura depende do seu.
 
@@ -110,7 +110,7 @@ Exemplos:
 | libxml2 | 30 | 58 | 626 | 13.985 |
 | libcurl4t64 | 78 | 185 | 234 | 3.990 |
 
-## Colunas de `top200_libs.csv`
+## Colunas de `top100_libs.csv`
 
 | Coluna | Origem |
 |---|---|
@@ -130,28 +130,29 @@ O Debian não traz uma classificação funcional útil para as libs:
   `libssl3t64` e `libcurl4t64`, sem as tags que tinham antes.
 
 Por isso, `classification/categories.csv` atribui manualmente uma categoria a cada uma das
-200 libs, com base na descrição e no projeto de origem. É uma curadoria inicial e merece
+200 primeiras libs do ranking (o CSV usa as 100 primeiras; as demais ficam prontas caso
+o corte aumente), com base na descrição e no projeto de origem. É uma curadoria inicial e merece
 revisão:
 
 | Categoria | Exemplos |
 |---|---|
 | `runtime-c-cpp` | libc6, libgcc-s1, libstdc++6, libgomp1 |
 | `compressao` | zlib1g, libzstd1, liblzma5, libbrotli1 |
-| `criptografia-hash` | libssl3t64, libgnutls30t64, libgcrypt20, libsodium23 |
-| `seguranca-autenticacao` | libselinux1, libpam0g, libkrb5-3, libseccomp2 |
-| `rede-io` | libcurl4t64, libnghttp2-14, libldap2, libuv1t64 |
+| `criptografia-hash` | libssl3t64, libgnutls30t64, libgcrypt20, libcrypt1 |
+| `seguranca-autenticacao` | libselinux1, libpam0g, libgssapi-krb5-2, libaudit1 |
+| `rede-io` | libcurl4t64, libcurl3t64-gnutls, libqt5network5t64 |
 | `parsing-formatos` | libxml2, libexpat1, libyaml-0-2, libpcre2-8-0 |
-| `banco-de-dados` | libsqlite3-0, libpq5, libmariadb3, libdb5.3t64 |
+| `banco-de-dados` | libsqlite3-0, libdb5.3t64, libgdbm6t64 |
 | `texto-fontes-i18n` | libicu76, libfreetype6, libharfbuzz0b, libpango-1.0-0 |
 | `graficos-imagem` | libcairo2, libpng16-16t64, libjpeg62-turbo, libgl1 |
 | `janelas-x11-wayland` | libx11-6, libxcb1, libwayland-client0 |
-| `gui-toolkit` | libgtk-3-0t64, libqt6widgets6, libatk1.0-0t64 |
+| `gui-toolkit` | libgtk-3-0t64, libqt6widgets6, libqt5widgets5t64 |
 | `utilitarios-base` | libglib2.0-0t64, libqt6core6t64, libffi8, libuuid1 |
-| `audio-video` | libasound2t64, libpulse0, libavutil59, libgstreamer1.0-0 |
+| `audio-video` | libasound2t64, libsdl2-2.0-0, libogg0 |
 | `calculo-cientifico` | libgmp10, libblas3, liblapack3, libopenmpi40 |
 | `sistema-linux` | libsystemd0, libudev1, libdbus-1-3, libmount1 |
 | `terminal` | libtinfo6, libncursesw6, libreadline8t64 |
-| `linguagem-runtime` | libperl5.40, libpython3.13, libruby3.3, libnode115 |
+| `linguagem-runtime` | libperl5.40, libruby3.3, libnode115, libtcl8.6 |
 
 Se o top N mudar (outra release, outro N), as libs novas aparecem com `category` vazia e
 precisam ser adicionadas ao arquivo.

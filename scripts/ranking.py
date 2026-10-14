@@ -24,7 +24,7 @@ COLUMNS = ["rank", "package", "category", "source", "version", "section", "descr
            "pagerank", "direct_dependents", "transitive_dependents"]
 
 
-def main(packages_path, import_dir, out_dir, top_n=200):
+def main(packages_path, import_dir, out_dir, top_n=100):
     meta = {}
     for p in paragraphs(packages_path):
         meta.setdefault(p["Package"], p)
