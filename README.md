@@ -176,3 +176,8 @@ precisam ser adicionadas ao arquivo.
   gratuito do AuraDB tem limite de nós e relacionamentos, então cabe apenas o recorte de
   dependências de execução.
 - Agregar o ranking por pacote fonte, para unir variantes como as duas libcurl.
+
+## Licença
+
+Distribuído sob a licença MIT; veja [`LICENSE`](LICENSE). Os metadados de origem vêm do
+arquivo público do Debian.
