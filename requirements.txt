@@ -1,2 +1,2 @@
-networkx
-scipy
+networkx==3.7
+scipy==1.18.1

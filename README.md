@@ -7,6 +7,9 @@ O resultado principal é [`results/top100_libs.csv`](results/top100_libs.csv): a
 bibliotecas mais relevantes da release **trixie (Debian 13)**, seção `main`, arquitetura
 `amd64`.
 
+A metodologia completa (snapshot exato do dataset, hashes, etapas do pipeline e
+números intermediários) está em [`results/README.md`](results/README.md).
+
 ## Fonte dos dados
 
 O Debian publica, por release, dois índices com os metadados de todos os pacotes:
