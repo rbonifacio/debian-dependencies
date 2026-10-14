@@ -1,0 +1,201 @@
+rank,package,category,source,version,section,description,tags,homepage,pagerank,direct_dependents,transitive_dependents
+1,libc6,runtime-c-cpp,glibc,2.41-12+deb13u4,libs,GNU C Library: Shared libraries,role::shared-lib,https://www.gnu.org/software/libc/libc.html,0.150163,22912,50190
+2,libgcc-s1,runtime-c-cpp,gcc-14,14.2.0-19,libs,GCC support library,role::shared-lib,http://gcc.gnu.org/,0.127851,6912,50190
+3,gcc-14-base,runtime-c-cpp,gcc-14,14.2.0-19,libs,"GCC, the GNU Compiler Collection (base package)",,http://gcc.gnu.org/,0.055298,129,50196
+4,libstdc++6,runtime-c-cpp,gcc-14,14.2.0-19,libs,GNU Standard C++ Library v3,role::shared-lib,http://gcc.gnu.org/,0.007953,7897,23946
+5,zlib1g,compressao,zlib,1:1.3.dfsg+really1.3.1-1+b1,libs,compression library - runtime,role::shared-lib,http://zlib.net/,0.006355,2508,37826
+6,libcrypt1,criptografia-hash,libxcrypt,1:4.4.38-1,libs,libcrypt shared library,role::shared-lib,,0.005119,176,19348
+7,perl-modules-5.40,linguagem-runtime,perl,5.40.1-6+deb13u1,libs,Core Perl modules,,https://dev.perl.org/perl5/,0.004099,2,8027
+8,libperl5.40,linguagem-runtime,perl,5.40.1-6+deb13u1,libs,shared Perl library,,https://dev.perl.org/perl5/,0.003668,46,8026
+9,libglib2.0-0t64,utilitarios-base,glib2.0,2.84.4-3~deb13u5,libs,GLib library of C routines,,https://gitlab.gnome.org/GNOME/glib,0.003435,2793,12551
+10,libssl3t64,criptografia-hash,openssl,3.5.7-1~deb13u2,libs,Secure Sockets Layer toolkit - shared libraries,,https://openssl-library.org,0.002709,917,25872
+11,libtinfo6,terminal,ncurses,6.5+20250216-2,libs,shared low-level terminfo library for terminal handling,role::shared-lib,https://invisible-island.net/ncurses/,0.002575,562,22245
+12,libgmp10,calculo-cientifico,gmp,2:6.3.0+dfsg-3,libs,Multiprecision arithmetic library,role::shared-lib,https://gmplib.org/,0.002265,2102,17924
+13,libzstd1,compressao,libzstd,1.5.7+dfsg-1,libs,fast lossless compression algorithm,role::shared-lib,https://github.com/facebook/zstd,0.001836,1051,30571
+14,libx11-6,janelas-x11-wayland,libx11,2:1.8.12-1,libs,X11 client-side library,role::shared-lib,,0.001777,1328,12643
+15,libbz2-1.0,compressao,bzip2,1.0.8-6,libs,high-quality block-sorting file compressor library - runtime,role::shared-lib,https://sourceware.org/bzip2/,0.001712,264,27891
+16,libselinux1,seguranca-autenticacao,libselinux,3.8.1-1,libs,SELinux runtime shared libraries,role::shared-lib,https://github.com/SELinuxProject,0.001462,143,23557
+17,libffi8,utilitarios-base,libffi,3.4.8-2,libs,Foreign Function Interface library runtime,role::shared-lib,https://sourceware.org/libffi/,0.001419,143,24441
+18,libpcre2-8-0,parsing-formatos,pcre2,10.46-1~deb13u2,libs,New Perl Compatible Regular Expression Library- 8 bit runtime files,role::shared-lib,https://github.com/PCRE2Project/pcre2,0.001385,206,24155
+19,libruby3.3,linguagem-runtime,ruby3.3,3.3.8-2,libs,Libraries necessary to run Ruby 3.3,,https://www.ruby-lang.org/,0.001342,164,1242
+20,liblzma5,compressao,xz-utils,5.8.1-1+deb13u1,libs,XZ-format compression library,role::shared-lib,https://tukaani.org/xz/,0.001306,138,23553
+21,libexpat1,parsing-formatos,expat,2.8.3-1~deb13u1,libs,XML parsing C library - runtime library,role::shared-lib,https://libexpat.github.io/,0.001235,194,19721
+22,libxcb1,janelas-x11-wayland,libxcb,1.17.0-2+b1,libs,X C Binding,role::shared-lib,https://xcb.freedesktop.org,0.001073,200,12827
+23,libdb5.3t64,banco-de-dados,db5.3,5.3.28+dfsg2-9,libs,Berkeley v5.3 Database Libraries [runtime],,http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html,0.001048,86,24506
+24,libqt6core6t64,utilitarios-base,qt6-base,6.8.2+dfsg-9+deb13u2,libs,Qt 6 core module,,https://www.qt.io/developers/,0.000981,1346,2059
+25,libqt5core5t64,utilitarios-base,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 core module,,https://www.qt.io/developers/,0.000944,1340,2137
+26,libruby,linguagem-runtime,ruby-defaults,1:3.3+b1,libs,Libraries necessary to run Ruby,role::shared-lib,https://www.ruby-lang.org/,0.000938,140,1242
+27,libsqlite3-0,banco-de-dados,sqlite3,3.46.1-7+deb13u2,libs,SQLite 3 shared library,role::shared-lib,https://www.sqlite.org/,0.000809,415,14318
+28,libreadline8t64,terminal,readline,8.2-6,libs,"GNU readline and history libraries, run-time libraries",,https://tiswww.case.edu/php/chet/readline/rltop.html,0.000752,286,13751
+29,libgdbm6t64,banco-de-dados,gdbm,1.24-2,libs,GNU dbm database routines (runtime version),,https://gnu.org/software/gdbm,0.000741,42,8349
+30,libxml2,parsing-formatos,libxml2,2.12.7+dfsg+really2.9.14-2.1+deb13u3,libs,GNOME XML library,role::shared-lib,http://xmlsoft.org,0.000737,626,13985
+31,libcap2,seguranca-autenticacao,libcap2,1:2.75-10+deb13u1+b3,libs,POSIX 1003.1e capabilities (library),role::shared-lib,https://sites.google.com/site/fullycapable/,0.000686,127,17640
+32,libuuid1,utilitarios-base,util-linux,2.41.5-0+deb13u1,libs,Universally Unique ID library,role::shared-lib,https://github.com/util-linux/util-linux,0.000683,163,16905
+33,libncursesw6,terminal,ncurses,6.5+20250216-2,libs,shared libraries for terminal handling (wide character support),role::shared-lib,https://invisible-island.net/ncurses/,0.000637,174,17126
+34,libsystemd0,sistema-linux,systemd,257.13-1~deb13u1,libs,systemd utility library,role::shared-lib,https://systemd.io,0.000625,293,16612
+35,dconf-gsettings-backend,gui-toolkit,dconf,0.40.0-5,libs,simple configuration storage system - GSettings back-end,role::shared-lib,https://wiki.gnome.org/Projects/dconf,0.000602,467,3771
+36,libmpfr6,calculo-cientifico,mpfr4,4.2.2-1,libs,multiple precision floating-point computation,role::shared-lib,https://www.mpfr.org/,0.000575,753,3007
+37,libpng16-16t64,graficos-imagem,libpng1.6,1.6.48-1+deb13u5,libs,PNG library - runtime (version 1.6),,http://libpng.org/pub/png/libpng.html,0.000563,520,11589
+38,libgtk-3-0t64,gui-toolkit,gtk+3.0,3.24.49-3,libs,GTK graphical user interface library,,https://www.gtk.org/,0.000560,975,2956
+39,libcairo2,graficos-imagem,cairo,1.18.4-1+b1,libs,Cairo 2D vector graphics library,role::shared-lib,https://cairographics.org/,0.000536,872,6736
+40,libgomp1,runtime-c-cpp,gcc-14,14.2.0-19,libs,GCC OpenMP (GOMP) support library,role::shared-lib,http://gcc.gnu.org/,0.000505,428,7839
+41,libmount1,sistema-linux,util-linux,2.41.5-0+deb13u1,libs,device mounting library,role::shared-lib,https://github.com/util-linux/util-linux,0.000503,30,13397
+42,libmd0,criptografia-hash,libmd,1.1.0-2+b1,libs,message digest functions from BSD systems - shared library,role::shared-lib,https://www.hadrons.org/software/libmd/,0.000502,20,19262
+43,libnode115,linguagem-runtime,nodejs,20.19.2+dfsg-1+deb13u2,libs,evented I/O for V8 javascript - runtime library,,https://nodejs.org/,0.000499,13,816
+44,libfreetype6,texto-fontes-i18n,freetype,2.13.3+dfsg-1+deb13u1,libs,"FreeType 2 font engine, shared library files",role::shared-lib,https://freetype.org,0.000494,301,10924
+45,libatomic1,runtime-c-cpp,gcc-14,14.2.0-19,libs,support library providing __atomic built-in functions,role::shared-lib,http://gcc.gnu.org/,0.000484,27,13665
+46,libgdbm-compat4t64,banco-de-dados,gdbm,1.24-2,libs,GNU dbm database routines (legacy support runtime version),,https://gnu.org/software/gdbm,0.000470,6,8030
+47,libqt6gui6,gui-toolkit,qt6-base,6.8.2+dfsg-9+deb13u2,libs,Qt 6 GUI module,role::shared-lib,https://www.qt.io/developers/,0.000465,957,1806
+48,libqt5gui5t64,gui-toolkit,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 GUI module,,https://www.qt.io/developers/,0.000465,894,1754
+49,libudev1,sistema-linux,systemd,257.13-1~deb13u1,libs,libudev shared library,role::shared-lib,https://systemd.io,0.000438,215,10302
+50,libgdk-pixbuf-2.0-0,graficos-imagem,gdk-pixbuf,2.42.12+dfsg-4+deb13u1,libs,GDK Pixbuf library,role::shared-lib,https://www.gtk.org/,0.000420,710,4711
+51,libjpeg62-turbo,graficos-imagem,libjpeg-turbo,1:2.1.5-4,libs,libjpeg-turbo JPEG runtime library,role::shared-lib,https://www.libjpeg-turbo.org/,0.000420,410,10880
+52,libxext6,janelas-x11-wayland,libxext,2:1.3.4-1+b3,libs,X11 miscellaneous extension library,role::shared-lib,,0.000415,323,11852
+53,libicu76,texto-fontes-i18n,icu,76.1-4,libs,International Components for Unicode,,https://icu.unicode.org/,0.000409,197,8233
+54,libmpc3,calculo-cientifico,mpclib3,1.3.1-1+b3,libs,multiple precision complex floating-point library,role::shared-lib,http://www.multiprecision.org/mpc/,0.000408,705,2280
+55,libxau6,janelas-x11-wayland,libxau,1:1.0.11-1,libs,X11 authorisation library,role::shared-lib,,0.000407,27,12839
+56,libxdmcp6,janelas-x11-wayland,libxdmcp,1:1.1.5-1,libs,X11 Display Manager Control Protocol library,role::shared-lib,,0.000397,14,12831
+57,libisl23,calculo-cientifico,isl,0.27-1,libs,manipulating sets and relations of integer points bounded by linear constraints,role::shared-lib,https://openhub.net/p/isl,0.000390,688,2251
+58,libpango-1.0-0,texto-fontes-i18n,pango1.0,1.56.3-1,libs,Layout and rendering of internationalized text,role::shared-lib,https://www.pango.org/,0.000388,674,5999
+59,libdbus-1-3,sistema-linux,dbus,1.16.2-2,libs,simple interprocess messaging system (library),role::shared-lib,https://dbus.freedesktop.org/,0.000378,210,9310
+60,libblas3,calculo-cientifico,lapack,3.12.1-6,libs,"Basic Linear Algebra Reference implementations, shared library",role::shared-lib,https://www.netlib.org/lapack/,0.000367,226,3312
+61,libacl1,seguranca-autenticacao,acl,2.3.2-2+b1,libs,access control list - shared library,role::shared-lib,https://savannah.nongnu.org/projects/acl/,0.000327,83,15780
+62,libfontconfig1,texto-fontes-i18n,fontconfig,2.15.0-2.3,libs,generic font configuration library - runtime,role::shared-lib,https://www.freedesktop.org/wiki/Software/fontconfig/,0.000304,228,10292
+63,libgl1,graficos-imagem,libglvnd,1.7.0-1+b2,libs,Vendor neutral GL dispatch library -- legacy GL support,role::shared-lib,https://gitlab.freedesktop.org/glvnd/libglvnd,0.000304,461,4224
+64,libusb-1.0-0,sistema-linux,libusb-1.0,2:1.0.28-1,libs,userspace USB programming library,role::shared-lib,http://www.libusb.info,0.000291,193,1350
+65,libgfortran5,runtime-c-cpp,gcc-14,14.2.0-19,libs,Runtime library for GNU Fortran applications,role::shared-lib,http://gcc.gnu.org/,0.000286,195,3607
+66,libqt5widgets5t64,gui-toolkit,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 widgets module,,https://www.qt.io/developers/,0.000283,694,1518
+67,liblapack3,calculo-cientifico,lapack,3.12.1-6,libs,Library of linear algebra routines 3 - shared version,role::shared-lib,https://www.netlib.org/lapack/,0.000269,214,3246
+68,libasound2t64,audio-video,alsa-lib,1.2.14-1+deb13u1,libs,shared library for ALSA applications,,https://www.alsa-project.org/,0.000259,299,3702
+69,libblkid1,sistema-linux,util-linux,2.41.5-0+deb13u1,libs,block device ID library,role::shared-lib,https://github.com/util-linux/util-linux,0.000254,57,13580
+70,libnuma1,sistema-linux,numactl,2.0.19-1,libs,Libraries for controlling NUMA policy,role::shared-lib,https://github.com/numactl/numactl,0.000252,335,2544
+71,libbsd0,utilitarios-base,libbsd,0.12.2-2,libs,utility functions from BSD systems - shared library,role::shared-lib,https://libbsd.freedesktop.org/,0.000245,276,11212
+72,libgssapi-krb5-2,seguranca-autenticacao,krb5,1.21.3-5+deb13u1,libs,MIT Kerberos runtime libraries - krb5 GSS-API Mechanism,role::shared-lib,https://web.mit.edu/kerberos/,0.000242,90,12785
+73,libgnutls30t64,criptografia-hash,gnutls28,3.8.9-3+deb13u4,libs,GNU TLS library - main runtime library,,https://www.gnutls.org/,0.000240,223,11395
+74,libqt6widgets6,gui-toolkit,qt6-base,6.8.2+dfsg-9+deb13u2,libs,Qt 6 widgets module,role::shared-lib,https://www.qt.io/developers/,0.000238,687,1509
+75,libpam0g,seguranca-autenticacao,pam,1.7.0-5,libs,Pluggable Authentication Modules library,role::shared-lib,http://www.linux-pam.org/,0.000238,213,6373
+76,libqt6qml6,gui-toolkit,qt6-declarative,6.8.2+dfsg-7,libs,Qt 6 QML library,role::shared-lib,https://www.qt.io/developers/,0.000229,397,1295
+77,libbrotli1,compressao,brotli,1.1.0-2+b7,libs,library implementing brotli encoder and decoder (shared libraries),role::shared-lib,https://github.com/google/brotli,0.000227,41,14447
+78,libcurl4t64,rede-io,curl,8.14.1-2+deb13u5,libs,easy-to-use client-side URL transfer library (OpenSSL flavour),,https://curl.se/,0.000224,234,3990
+79,libyaml-0-2,parsing-formatos,libyaml,0.2.5-2,libs,Fast YAML 1.1 parser and emitter library,role::shared-lib,https://github.com/yaml/libyaml,0.000216,82,3302
+80,libglvnd0,graficos-imagem,libglvnd,1.7.0-1+b2,libs,Vendor neutral GL dispatch library,role::shared-lib,https://gitlab.freedesktop.org/glvnd/libglvnd,0.000213,7,5827
+81,libtiff6,graficos-imagem,tiff,4.7.0-3+deb13u3,libs,Tag Image File Format (TIFF) library,role::shared-lib,https://libtiff.gitlab.io/libtiff/,0.000204,178,7820
+82,libtcl8.6,linguagem-runtime,tcl8.6,8.6.16+dfsg-1,libs,Tcl (the Tool Command Language) v8.6 - run-time library files,role::shared-lib,http://www.tcl.tk/,0.000201,90,1772
+83,libcurl3t64-gnutls,rede-io,curl,8.14.1-2+deb13u5,libs,easy-to-use client-side URL transfer library (GnuTLS flavour),,https://curl.se/,0.000198,221,4725
+84,libsdl2-2.0-0,audio-video,libsdl2,2.32.4+dfsg-1,libs,Simple DirectMedia Layer,role::shared-lib,https://www.libsdl.org/,0.000197,224,846
+85,libqt5network5t64,rede-io,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 network module,,https://www.qt.io/developers/,0.000193,352,1941
+86,libqt5dbus5t64,utilitarios-base,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 D-Bus module,,https://www.qt.io/developers/,0.000188,287,2006
+87,libaudit1,seguranca-autenticacao,audit,1:4.0.2-2+deb13u1,libs,Dynamic library for security auditing,role::shared-lib,https://people.redhat.com/sgrubb/audit/,0.000188,40,6470
+88,libharfbuzz0b,texto-fontes-i18n,harfbuzz,10.2.0-1+deb13u1,libs,OpenType text shaping engine (shared library),role::shared-lib,https://harfbuzz.github.io/,0.000185,109,9140
+89,libqt6dbus6,utilitarios-base,qt6-base,6.8.2+dfsg-9+deb13u2,libs,Qt 6 D-Bus module,role::shared-lib,https://www.qt.io/developers/,0.000183,314,1969
+90,libpangocairo-1.0-0,texto-fontes-i18n,pango1.0,1.56.3-1,libs,Layout and rendering of internationalized text,role::shared-lib,https://www.pango.org/,0.000179,343,5964
+91,libpcre2-16-0,parsing-formatos,pcre2,10.46-1~deb13u2,libs,New Perl Compatible Regular Expression Library - 16 bit runtime files,role::shared-lib,https://github.com/PCRE2Project/pcre2,0.000179,6,4753
+92,libdouble-conversion3,parsing-formatos,double-conversion,3.3.1-1,libs,routines to convert IEEE floats to and from strings,role::shared-lib,https://github.com/google/double-conversion,0.000179,17,4133
+93,libogg0,audio-video,libogg,1.3.5-3+b2,libs,Ogg bitstream library,role::shared-lib,https://xiph.org/ogg/,0.000177,106,3471
+94,libgcrypt20,criptografia-hash,libgcrypt20,1.11.0-7+deb13u1,libs,LGPL Crypto library - runtime library,role::shared-lib,https://gnupg.org/software/libgcrypt/,0.000176,138,4508
+95,libncurses6,terminal,ncurses,6.5+20250216-2,libs,shared libraries for terminal handling,role::shared-lib,https://invisible-island.net/ncurses/,0.000174,211,999
+96,libdconf1,gui-toolkit,dconf,0.40.0-5,libs,simple configuration storage system - runtime library,role::shared-lib,https://wiki.gnome.org/Projects/dconf,0.000174,21,3835
+97,libgpg-error0,criptografia-hash,libgpg-error,1.51-4,libs,GnuPG development runtime library,role::shared-lib,https://www.gnupg.org/related_software/libgpg-error/,0.000173,50,4525
+98,libopenmpi40,calculo-cientifico,openmpi,5.0.7-1,libs,high performance message passing library -- shared library,,https://www.open-mpi.org/,0.000171,203,712
+99,libwayland-client0,janelas-x11-wayland,wayland,1.23.1-3,libs,wayland compositor infrastructure - client library,role::shared-lib,https://wayland.freedesktop.org/,0.000166,209,7392
+100,libpkgconf3,utilitarios-base,pkgconf,1.8.1-4,libs,shared library for pkgconf,role::shared-lib,http://pkgconf.org/,0.000166,3,1452
+101,libqt6network6,rede-io,qt6-base,6.8.2+dfsg-9+deb13u2,libs,Qt 6 network module,role::shared-lib,https://www.qt.io/developers/,0.000165,292,1684
+102,libqt5qml5,gui-toolkit,qtdeclarative-opensource-src,5.15.15+dfsg-3,libs,Qt 5 QML module,role::shared-lib,https://doc.qt.io/qt-5/qmlapplications.html,0.000158,289,721
+103,libunistring5,texto-fontes-i18n,libunistring,1.3-2,libs,Unicode string library for C,,https://www.gnu.org/software/libunistring/,0.000158,31,11702
+104,libldap2,rede-io,openldap,2.6.10+dfsg-1,libs,OpenLDAP libraries,,https://www.openldap.org/,0.000157,127,8351
+105,libsdl1.2debian,audio-video,sdl12-compat,1.2.68-3,libs,SDL 1.2 binary compatibility library wrapping SDL 2.0,role::shared-lib,https://github.com/libsdl-org/sdl12-compat,0.000153,206,269
+106,libfdt1,sistema-linux,device-tree-compiler,1.7.2-2+b1,libs,Flat Device Trees manipulation library,role::shared-lib,https://git.kernel.org/cgit/utils/dtc/dtc.git,0.000152,220,293
+107,libltdl7,utilitarios-base,libtool,2.5.4-4,libs,System independent dlopen wrapper for GNU libtool,role::shared-lib,https://www.gnu.org/software/libtool/,0.000151,60,2769
+108,libglx0,graficos-imagem,libglvnd,1.7.0-1+b2,libs,Vendor neutral GL dispatch library -- GLX support,role::shared-lib,https://gitlab.freedesktop.org/glvnd/libglvnd,0.000151,45,5458
+109,libnettle8t64,criptografia-hash,nettle,3.10.1-1,libs,low level cryptographic library (symmetric and one-way cryptos),,https://www.lysator.liu.se/~nisse/nettle/,0.000147,92,12149
+110,libxrender1,janelas-x11-wayland,libxrender,1:0.9.12-1,libs,X Rendering Extension client library,role::shared-lib,,0.000147,68,9523
+111,libxt6t64,janelas-x11-wayland,libxt,1:1.2.1-1.2+b2,libs,X11 toolkit intrinsics library,,,0.000147,158,2686
+112,libxkbcommon0,janelas-x11-wayland,libxkbcommon,1.7.0-2,libs,library interface to the XKB compiler - shared library,role::shared-lib,https://www.xkbcommon.org/,0.000145,123,7319
+113,libpython3.13,linguagem-runtime,python3.13,3.13.5-2+deb13u5,libs,Shared Python runtime library (version 3.13),,,0.000144,236,1183
+114,libpcap0.8t64,rede-io,libpcap,1.10.5-2,libs,system interface for user-level packet capture,,https://www.tcpdump.org/,0.000143,152,356
+115,libglobus-common0t64,rede-io,globus-common,18.14-3,libs,Grid Community Toolkit - Common Library,,https://github.com/gridcf/gct/,0.000141,73,136
+116,libatk1.0-0t64,gui-toolkit,at-spi2-core,2.56.2-1+deb13u2,libs,ATK accessibility toolkit,,https://wiki.gnome.org/Accessibility,0.000141,160,3211
+117,libdrm2,graficos-imagem,libdrm,2.4.124-2,libs,Userspace interface to kernel DRM services -- runtime,role::shared-lib,https://gitlab.freedesktop.org/mesa/drm/,0.000136,101,6903
+118,libjansson4,parsing-formatos,jansson,2.14-2+b3,libs,"C library for encoding, decoding and manipulating JSON data",role::shared-lib,http://www.digip.org/jansson/,0.000136,136,3510
+119,dconf-service,gui-toolkit,dconf,0.40.0-5,libs,simple configuration storage system - D-Bus service,role::shared-lib,https://wiki.gnome.org/Projects/dconf,0.000136,1,3772
+120,libpq5,banco-de-dados,postgresql-17,17.11-0+deb13u1,libs,PostgreSQL C client library,role::shared-lib,http://www.postgresql.org/,0.000135,136,1092
+121,gcc-13-base,runtime-c-cpp,gcc-13,13.3.0-16,libs,"GCC, the GNU Compiler Collection (base package)",,http://gcc.gnu.org/,0.000133,88,120
+122,libcom-err2,seguranca-autenticacao,e2fsprogs,1.47.2-3+b12,libs,common error description library,role::shared-lib,http://e2fsprogs.sourceforge.net,0.000131,70,12927
+123,libidn2-0,rede-io,libidn2,2.3.8-2,libs,Internationalized domain names (IDNA2008/TR46) library,role::shared-lib,https://www.gnu.org/software/libidn/#libidn2,0.000129,46,11474
+124,libkf6coreaddons6,gui-toolkit,kf6-kcoreaddons,6.13.0-1,libs,KDE Frameworks 6 addons to QtCore,,https://invent.kde.org/frameworks/kcoreaddons,0.000127,427,740
+125,libkf6i18n6,texto-fontes-i18n,kf6-ki18n,6.13.0-1,libs,Advanced internationalization framework,,https://invent.kde.org/frameworks/ki18n,0.000126,440,792
+126,libnl-3-200,rede-io,libnl3,3.7.0-2,libs,library for dealing with netlink sockets,role::shared-lib,https://github.com/thom311/libnl,0.000124,64,1186
+127,libfribidi0,texto-fontes-i18n,fribidi,1.0.16-1,libs,Free Implementation of the Unicode BiDi algorithm,role::shared-lib,http://www.fribidi.org/,0.000124,68,6466
+128,libpulse0,audio-video,pulseaudio,17.0+dfsg1-2+b1,libs,PulseAudio client libraries,role::shared-lib,http://pulseaudio.org,0.000123,182,2215
+129,libasound2-data,audio-video,alsa-lib,1.2.14-1+deb13u1,libs,Configuration files and profiles for ALSA drivers,role::shared-lib,https://www.alsa-project.org/,0.000121,1,3703
+130,libkrb5support0,seguranca-autenticacao,krb5,1.21.3-5+deb13u1,libs,MIT Kerberos runtime libraries - Support library,role::shared-lib,https://web.mit.edu/kerberos/,0.000120,15,12833
+131,libxpm4,graficos-imagem,libxpm,1:3.5.17-1+deb13u1,libs,X11 pixmap library,role::shared-lib,https://www.x.org,0.000118,152,1740
+132,librte-log25,rede-io,dpdk,24.11.4-0+deb13u1,libs,Data Plane Development Kit (librte-log runtime library),,https://www.dpdk.org,0.000117,212,225
+133,libtirpc3t64,rede-io,libtirpc,1.3.6+ds-1,libs,transport-independent RPC library,,http://sourceforge.net/projects/libtirpc,0.000117,90,2214
+134,libkf6configcore6,gui-toolkit,kf6-kconfig,6.13.0-2,libs,configuration settings framework for Qt,,https://invent.kde.org/frameworks/kconfig,0.000114,382,765
+135,libtalloc2,utilitarios-base,samba,2:2.4.3+samba4.22.11+dfsg-0+deb13u1,libs,hierarchical pool based memory allocator,role::shared-lib,https://www.samba.org,0.000114,89,343
+136,liblz4-1,compressao,lz4,1.10.0-4,libs,Fast LZ compression algorithm library - runtime,role::shared-lib,https://github.com/lz4/lz4,0.000113,111,3141
+137,libxrandr2,janelas-x11-wayland,libxrandr,2:1.5.4-1+b3,libs,X11 RandR extension library,role::shared-lib,,0.000112,157,4966
+138,libjack-jackd2-0,audio-video,jackd2,1.9.22~dfsg-4,libs,JACK Audio Connection Kit (libraries),role::shared-lib,https://jackaudio.org/,0.000110,165,935
+139,libkrb5-3,seguranca-autenticacao,krb5,1.21.3-5+deb13u1,libs,MIT Kerberos runtime libraries,role::shared-lib,https://web.mit.edu/kerberos/,0.000109,84,12831
+140,rpcsvc-proto,rede-io,rpcsvc-proto,1.4.3-1,libs,RPC protocol compiler and definitions,role::shared-lib,https://github.com/thkukuk/rpcsvc-proto,0.000107,1,2987
+141,libgsl28,calculo-cientifico,gsl,2.8+dfsg-5,libs,GNU Scientific Library (GSL) -- library package,,https://www.gnu.org/software/gsl,0.000106,136,391
+142,libice6,janelas-x11-wayland,libice,2:1.1.1-1,libs,X11 Inter-Client Exchange library,role::shared-lib,,0.000106,56,6611
+143,libelf1t64,sistema-linux,elfutils,0.192-4,libs,library to read and write ELF files,,https://sourceware.org/elfutils/,0.000106,68,7710
+144,libxslt1.1,parsing-formatos,libxslt,1.1.35-1.2+deb13u3,libs,XSLT 1.0 processing library - runtime library,role::shared-lib,https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home,0.000104,66,2825
+145,libsasl2-2,seguranca-autenticacao,cyrus-sasl2,2.1.28+dfsg1-9,libs,Cyrus SASL - authentication abstraction library,role::shared-lib,https://www.cyrusimap.org/sasl/,0.000104,64,8581
+146,libhdf5-310,calculo-cientifico,hdf5,1.14.5+repack-3,libs,HDF5 C runtime files - serial version,,http://hdfgroup.org/HDF5/,0.000101,96,963
+147,libwebp7,graficos-imagem,libwebp,1.5.0-0.1,libs,Lossy compression of digital photographic images (shared library),role::shared-lib,https://developers.google.com/speed/webp/,0.000100,75,7895
+148,libjson-c5,parsing-formatos,json-c,0.18+ds-1,libs,JSON manipulation library - shared library,role::shared-lib,https://github.com/json-c/json-c/wiki,0.000100,96,1401
+149,libxfixes3,janelas-x11-wayland,libxfixes,1:6.0.0-2+b4,libs,X11 miscellaneous 'fixes' extension library,role::shared-lib,,0.000099,90,5765
+150,libcap-ng0,seguranca-autenticacao,libcap-ng,0.8.5-4+b1,libs,alternate POSIX capabilities library,role::shared-lib,https://people.redhat.com/sgrubb/libcap-ng,0.000098,43,6515
+151,libseccomp2,seguranca-autenticacao,libseccomp,2.6.0-2,libs,high level interface to Linux seccomp filter,role::shared-lib,https://github.com/seccomp/libseccomp,0.000098,57,2109
+152,libxcb-shm0,janelas-x11-wayland,libxcb,1.17.0-2+b1,libs,"X C Binding, shm extension",role::shared-lib,https://xcb.freedesktop.org,0.000097,23,9998
+153,libxxhash0,criptografia-hash,xxhash,0.8.3-2,libs,shared library for xxhash,role::shared-lib,https://cyan4973.github.io/xxHash,0.000096,26,3251
+154,libgtk2.0-0t64,gui-toolkit,gtk+2.0,2.24.33-7,oldlibs,GTK graphical user interface library - old version,,http://www.gtk.org/,0.000096,168,272
+155,libb2-1,criptografia-hash,libb2,0.98.1-1.1+b2,libs,BLAKE2 family of hash functions,role::shared-lib,https://blake2.net/,0.000096,9,2109
+156,libsndfile1,audio-video,libsndfile,1.2.2-2+deb13u1,libs,Library for reading/writing audio files,role::shared-lib,https://libsndfile.github.io/libsndfile/,0.000095,144,2549
+157,libboost-filesystem1.83.0,utilitarios-base,boost1.83,1.83.0-4.2,libs,"filesystem operations (portable paths, iteration over directories, etc) in C++",,http://boost.org/libs/filesystem/,0.000093,177,753
+158,libxi6,janelas-x11-wayland,libxi,2:1.8.2-1,libs,X11 Input extension library,role::shared-lib,https://www.x.org/,0.000093,108,4780
+159,libmariadb3,banco-de-dados,mariadb,1:11.8.6-0+deb13u1,libs,MariaDB database client library,role::shared-lib,https://mariadb.org/,0.000093,115,747
+160,libc6-i386,runtime-c-cpp,glibc,2.41-12+deb13u4,libs,GNU C Library: 32-bit shared libraries for AMD64,role::shared-lib,https://www.gnu.org/software/libc/libc.html,0.000091,32,101
+161,libavutil59,audio-video,ffmpeg,7:7.1.5-0+deb13u1,libs,FFmpeg library with functions for simplifying programming - runtime files,,https://ffmpeg.org/,0.000091,136,861
+162,libgstreamer1.0-0,audio-video,gstreamer1.0,1.26.2-2,libs,Core GStreamer libraries and elements,role::shared-lib,https://gstreamer.freedesktop.org,0.000089,188,942
+163,libavahi-common3,rede-io,avahi,0.8-16,libs,Avahi common library,role::shared-lib,https://avahi.org/,0.000089,71,5428
+164,libk5crypto3,criptografia-hash,krb5,1.21.3-5+deb13u1,libs,MIT Kerberos runtime libraries - Crypto Library,role::shared-lib,https://web.mit.edu/kerberos/,0.000089,31,12832
+165,libglu1-mesa,graficos-imagem,libglu,9.0.2-1.1+b3,libs,Mesa OpenGL utility library (GLU),role::shared-lib,,0.000088,179,792
+166,libgtk-4-1,gui-toolkit,gtk4,4.18.6+ds-2,libs,GTK graphical user interface library,role::shared-lib,https://www.gtk.org/,0.000088,169,487
+167,libsodium23,criptografia-hash,libsodium,1.0.18-1+deb13u1,libs,"Network communication, cryptography and signaturing library",role::shared-lib,https://www.libsodium.org/,0.000088,66,1741
+168,libopengl0,graficos-imagem,libglvnd,1.7.0-1+b2,libs,Vendor neutral GL dispatch library -- OpenGL support,role::shared-lib,https://gitlab.freedesktop.org/glvnd/libglvnd,0.000087,81,2844
+169,libnghttp2-14,rede-io,nghttp2,1.64.0-1.1+deb13u1,libs,library implementing HTTP/2 protocol (shared library),role::shared-lib,https://nghttp2.org/,0.000087,22,8328
+170,liblcms2-2,graficos-imagem,lcms2,2.16-2+deb13u2,libs,Little CMS 2 color management library,role::shared-lib,http://www.littlecms.com/,0.000087,85,5771
+171,librte-kvargs25,rede-io,dpdk,24.11.4-0+deb13u1,libs,Data Plane Development Kit (librte-kvargs runtime library),,https://dpdk.org/doc/api/rte__kvargs_8h.html,0.000086,207,222
+172,librte-telemetry25,rede-io,dpdk,24.11.4-0+deb13u1,libs,Data Plane Development Kit (librte-telemetry runtime library),,https://dpdk.org/doc/api/rte__telemetry_8h.html,0.000086,207,222
+173,libuv1t64,rede-io,libuv1,1.50.0-2,libs,asynchronous event notification library - runtime library,,https://github.com/libuv/libuv,0.000085,36,1386
+174,libvorbis0a,audio-video,libvorbis,1.3.7-3,libs,decoder library for Vorbis General Audio Compression Codec,role::shared-lib,https://www.xiph.org/vorbis/,0.000085,88,3317
+175,libkmod2,sistema-linux,kmod,34.2-2,libs,libkmod shared library,role::shared-lib,,0.000084,18,949
+176,libqt5xml5t64,parsing-formatos,qtbase-opensource-src,5.15.15+dfsg-6+deb13u1,libs,Qt 5 XML module,,https://www.qt.io/developers/,0.000083,188,809
+177,libx11-xcb1,janelas-x11-wayland,libx11,2:1.8.12-1,libs,Xlib/XCB interface library,role::shared-lib,,0.000082,49,6742
+178,libjson-glib-1.0-0,parsing-formatos,json-glib,1.10.6+ds-2,libs,GLib JSON manipulation library,role::shared-lib,https://wiki.gnome.org/Projects/JsonGlib,0.000082,151,805
+179,qml6-module-qtquick,gui-toolkit,qt6-declarative,6.8.2+dfsg-7,libs,Qt 6 Quick QML module,role::shared-lib,https://www.qt.io/developers/,0.000082,187,423
+180,libqt6quick6,gui-toolkit,qt6-declarative,6.8.2+dfsg-7,libs,Qt 6 Quick library,role::shared-lib,https://www.qt.io/developers/,0.000081,192,825
+181,libxcb-render0,janelas-x11-wayland,libxcb,1.17.0-2+b1,libs,"X C Binding, render extension",role::shared-lib,https://xcb.freedesktop.org,0.000081,18,9229
+182,libcairo-gobject2,graficos-imagem,cairo,1.18.4-1+b1,libs,Cairo 2D vector graphics library (GObject library),role::shared-lib,https://cairographics.org/,0.000081,99,4376
+183,libnspr4,utilitarios-base,nspr,2:4.36-1,libs,NetScape Portable Runtime Library,role::shared-lib,http://www.mozilla.org/projects/nspr/,0.000080,46,2274
+184,libcups2t64,sistema-linux,cups,2.4.10-3+deb13u2,libs,Common UNIX Printing System(tm) - Core library,,https://github.com/OpenPrinting/cups/,0.000080,68,5138
+185,libsm6,janelas-x11-wayland,libsm,2:1.2.6-1,libs,X11 Session Management library,role::shared-lib,https://www.x.org,0.000079,55,6609
+186,librte-eal25,rede-io,dpdk,24.11.4-0+deb13u1,libs,Data Plane Development Kit (librte-eal runtime library),,https://dpdk.org/doc/api/rte__eal_8h.html,0.000078,210,221
+187,libfftw3-double3,calculo-cientifico,fftw3,3.3.10-2+b1,libs,Library for computing Fast Fourier Transforms - Double precision,role::shared-lib,https://fftw.org,0.000078,144,941
+188,libpixman-1-0,graficos-imagem,pixman,0.44.0-3,libs,pixel-manipulation library for X and cairo,role::shared-lib,http://pixman.org/,0.000078,56,6907
+189,libgmpxx4ldbl,calculo-cientifico,gmp,2:6.3.0+dfsg-3,libs,Multiprecision arithmetic library (C++ bindings),role::shared-lib,https://gmplib.org/,0.000077,21,499
+190,libedit2,terminal,libedit,3.1-20250104-1,libs,BSD editline and history libraries,role::shared-lib,https://www.thrysoee.dk/editline/,0.000077,65,7608
+191,libevent-2.1-7t64,rede-io,libevent,2.1.12-stable-10+b1,libs,Asynchronous event notification library,,https://libevent.org/,0.000075,70,1172
+192,libmnl0,rede-io,libmnl,1.0.5-3,libs,minimalistic Netlink communication library,role::shared-lib,https://netfilter.org/projects/libmnl/,0.000075,32,499
+193,libqt5quick5,gui-toolkit,qtdeclarative-opensource-src,5.15.15+dfsg-3,libs,Qt 5 Quick library,role::shared-lib,https://doc.qt.io/qt-5/qmlapplications.html,0.000074,160,489
+194,trilinos-dev,calculo-cientifico,trilinos,13.2.0-6+b4,libs,object-oriented framework for large-scale problems - development files,role::shared-lib,https://trilinos.github.io/,0.000073,43,49
+195,librevenge-0.0-0,parsing-formatos,librevenge,0.0.5-3+b2,libs,Base Library for writing document interface filters,role::shared-lib,http://sourceforge.net/p/libwpd/wiki/librevenge/,0.000073,72,161
+196,libhogweed6t64,criptografia-hash,nettle,3.10.1-1,libs,low level cryptographic library (public-key cryptos),,https://www.lysator.liu.se/~nisse/nettle/,0.000073,45,12005
+197,libxinerama1,janelas-x11-wayland,libxinerama,2:1.1.4-3+b4,libs,X11 Xinerama extension library,role::shared-lib,,0.000073,111,3955
+198,libtk8.6,gui-toolkit,tk8.6,8.6.16-1,libs,Tk toolkit for Tcl and X11 v8.6 - run-time files,role::shared-lib,http://www.tcl.tk/,0.000073,41,1644
+199,libpangoft2-1.0-0,texto-fontes-i18n,pango1.0,1.56.3-1,libs,Layout and rendering of internationalized text,role::shared-lib,https://www.pango.org/,0.000073,53,5993
+200,libgl-dev,graficos-imagem,libglvnd,1.7.0-1+b2,libs,Vendor neutral GL dispatch library -- GL development files,role::shared-lib,https://gitlab.freedesktop.org/glvnd/libglvnd,0.000072,36,740

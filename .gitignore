@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+data/
+import/
+.DS_Store
+results/ranking_all.csv
